@@ -63,11 +63,7 @@ body{
     color: white;
     font-weight: bold;
 }
-/* ----------Show toast---------- */
-.toast:not(.show){
-    display: block;
-    margin-left: auto;
-}
+
 /* ------side-bar---- */
 .side-bar{
     height: 8px;
