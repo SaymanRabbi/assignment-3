@@ -6,7 +6,7 @@ body{
 /* ------carousel customization--------- */
 .carousel-customiz{
     width: 100%;
-    height: 520px;
+    height: 525px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -18,7 +18,7 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 450px;
-    height: 300px;
+    height: 310px;
     text-align: center;
 }
 .slider-one{
@@ -32,7 +32,7 @@ body{
 }
 /* ------End carousel customization--------- */
 /* -----card design------ */
-.card h2{
+ h2,h3{
     color: #231D4F;
 }
 .card p{
@@ -42,4 +42,22 @@ body{
 }
 .card p i{
     color: #5243C2;
+}
+.card-style{
+    position: relative;
+}
+.card-style::before{
+    content: 'Hot';
+    position: absolute;
+    top: -22px;
+    width: 50px;
+    height: 50px;
+    background-color: #FF4E4E;
+    /* left: 142px; */
+    border-radius: 17%;
+    padding-top: 10px;
+    padding-left: 12px;
+    right: 8px;
+    color: white;
+    font-weight: bold;
 }
