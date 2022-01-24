@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.102);
 }
 /* ------carousel customization--------- */
 .carousel-customiz{
@@ -45,6 +46,7 @@ body{
 }
 .card-style{
     position: relative;
+    top: -50px;
 }
 .card-style::before{
     content: 'Hot';
@@ -65,4 +67,14 @@ body{
 .toast:not(.show){
     display: block;
     margin-left: auto;
+}
+/* ------side-bar---- */
+.side-bar{
+    height: 8px;
+    
+    border: 1px solid #0D6EFD;
+    padding-right: 5px;
+    background-color: #0D6EFD;
+    border-radius: 5px;
+    margin-right: 5px;
 }
