@@ -35,7 +35,7 @@ body{
  h2,h3{
     color: #231D4F;
 }
-.card p{
+.card>p{
     color: #848199;
     font-size: 15px;
     font-weight: bold;
